@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+    <string-array name="location">
+        <item>집</item>
+        <item>건물 내부 (방 안쪽)</item>
+        <item>건물 내부 (방 바깥쪽)</item>
+        <item>실외</item>
+        <item>자동차 안</item>
+        <item>대중교통 안</item>               
+    </string-array>
+    
+    <string-array name="action">
+        <item>컴퓨터 작업</item>
+        <item>회의</item>
+        <item>다른 사람과 대화</item>
+        <item>이동 중</item>
+        <item>식사 중</item>                      
+    </string-array>
+    
+    <string-array name="privacy">
+        <item>완전히 혼자 있음</item>
+        <item>폰 화면을 누군가와 같이 보고 있음</item>
+        <item>사람이 근처에 있지만 폰 화면이 보일 확률이 낮음</item>
+        <item>사람이 근처에 있고 폰 화면이 보일 확률이 높음</item>        
+    </string-array>
+</resources>

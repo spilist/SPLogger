@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+    android:weightSum="1" >
+
+    <TableLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content" >
+        <TableRow>
+            <TextView
+                android:id="@+id/loc_exp"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:text="@string/location" >
+            </TextView>
+            <Spinner
+                android:id="@+id/location"
+                android:layout_width="160dp"
+                android:layout_height="50dp"
+                android:drawSelectorOnTop="true" />
+        </TableRow>
+        <TableRow>
+            <TextView
+                android:id="@+id/action_exp"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:text="@string/action" >
+            </TextView>
+            <Spinner
+                android:id="@+id/action"
+                android:layout_width="160dp"
+                android:layout_height="50dp"
+                android:drawSelectorOnTop="true" />
+        </TableRow>
+        <TableRow>
+            <TextView
+                android:id="@+id/privacy_exp"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:text="@string/privacy" >
+            </TextView>
+            <Spinner
+                android:id="@+id/privacy"
+                android:layout_width="160dp"
+                android:layout_height="50dp"
+                android:drawSelectorOnTop="true" />
+        </TableRow>
+        <TableRow>
+            <TextView
+                android:id="@+id/action_exp"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:text="추가 기록사항" >
+            </TextView>
+        	<EditText
+	        	android:id="@+id/additional"
+	        	android:layout_width="160dp"
+	        	android:layout_height="50dp"	        	
+        		android:inputType="text" />
+        </TableRow>
+    </TableLayout>  
+    <Button
+        android:id="@+id/btn_log"
+        android:layout_width="160dp"
+        android:layout_height="50dp"
+       	android:layout_centerInParent="true"
+        android:text="측정" >
+    </Button>
+</RelativeLayout>
